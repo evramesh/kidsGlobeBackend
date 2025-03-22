@@ -81,6 +81,3 @@ app.get("/api",(req,res)=>{
     return res.json({user})
 })
 
-app.listen(8081,()=>{
-    console.log("Sucessfull")
-})
